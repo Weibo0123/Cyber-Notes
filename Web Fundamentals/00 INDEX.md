@@ -1,0 +1,17 @@
+# Web Fundamentals — Review Set
+
+| #   | File                                                                                                                              | Covers                                                                                     |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 01  | [The Internet and The Web](01%20The%20Internet%20and%20The%20Web.md)                                                              | TCP/IP model, WWW architecture, static/dynamic, websites vs. web apps vs. native apps      |
+| 02  | [URLs and URL Encoding](02%20URLs%20and%20URL%20Encoding.md)                                                                      | URL structure, path/query/fragment, percent-encoding                                       |
+| 03  | [HTTP Requests, Responses, Methods and Status Codes](03%20HTTP%20Requests,%20Responses,%20Methods%20and%20Status%20Codes.md)      | Request/response structure, GET/POST/PUT/DELETE/HEAD, status code classes                  |
+| 04  | [HTTP Headers](04%20HTTP%20Headers.md)                                                                                            | Header categories, `Host`, custom headers, viewing/setting headers                         |
+| 05  | [GET, POST, Query Strings and Basic Authentication](05%20GET,%20POST,%20Query%20Strings%20and%20Basic%20Authentication.md)        | Query strings, shell quoting, form/JSON POST, HTTP Basic Auth                              |
+| 06  | [Redirects, Cookies and State](06%20Redirects,%20Cookies%20and%20State.md)                                                        | 3xx/Location, statelessness, direct-state vs. session-ID cookies                           |
+| 07  | [HTTPS and DNS](07%20HTTPS%20and%20DNS.md)                                                                                        | TLS handshake/certificates, domain hierarchy, DNS records & resolution                     |
+| 08  | [Command-Line and Scripting Tools](08%20Command-Line%20and%20Scripting%20Tools%20-%20curl,%20netcat%20and%20Python%20requests.md) | `curl`, raw `netcat`, Python `requests` — options and when to use each                     |
+| 09  | [HTML and the DOM](09%20HTML%20and%20the%20DOM.md)                                                                                | HTML structure/elements, `<head>`/`<body>`, the DOM, page source vs. live DOM              |
+| 10  | [Cascading Style Sheets (CSS)](10%20Cascading%20Style%20Sheets%20(CSS).md)                                                        | Selectors, rules, animations, frameworks                                                   |
+| 11  | [JavaScript](11%20JavaScript.md)                                                                                                  | Client/server JS, DOM manipulation, AJAX/`fetch()`, frameworks                             |
+| 12  | [Web Architecture](12%20Web%20Architecture%20-%20Front%20End,%20Back%20End,%20Servers%20and%20Infrastructure.md)                  | Front/back end split, web servers, stacks, infrastructure models, microservices/serverless |
+| 13  | [Development Frameworks, APIs and Databases](13%20Development%20Frameworks,%20APIs%20and%20Databases.md)                          | Frameworks, Flask routing, SOAP vs. REST, SQL vs. NoSQL                                    |
