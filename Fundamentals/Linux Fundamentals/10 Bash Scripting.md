@@ -13,7 +13,7 @@ command1; command2                  # both run regardless
 command1 && command2 && command3     # stop at the first failure
 command1 || command2                  # command2 only runs if command1 failed
 ```
-(Exit codes are covered in depth in file 09.)
+(Exit codes are covered in depth in file 11.)
 
 ## Writing and Running a Script
 

@@ -19,7 +19,7 @@ cat FILE           # print contents
 cat FILE1 FILE2    # concatenate and print both
 cat                # no file given → reads from stdin
 ```
-This is your first exposure to Unix **standard streams** (`stdin`/`stdout`) — foundational for pipes, redirection, and syscalls later (file 06).
+This is your first exposure to Unix **standard streams** (`stdin`/`stdout`) — foundational for pipes, redirection, and syscalls later (file 08).
 
 ## Creating — `touch` and `mkdir`
 
@@ -66,7 +66,7 @@ Searching from `/` as a normal user will usually print permission errors for dir
 ```bash
 grep "pattern" FILE     # print matching lines
 ```
-`grep` filters whole **lines**, line by line, based on whether they match a pattern. (Options like `-i`, `-n`, `-r`, `-E`, and `-v` are covered in file 07 alongside other text tools.)
+`grep` filters whole **lines**, line by line, based on whether they match a pattern. (Options like `-i`, `-n`, `-r`, `-E`, and `-v` are covered in file 09 alongside other text tools.)
 
 ## Comparing Files — `diff`
 

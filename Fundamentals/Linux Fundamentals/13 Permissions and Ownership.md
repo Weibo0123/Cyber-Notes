@@ -14,7 +14,7 @@ Linux access control for files rests on two ideas: **who owns it** (Ownership) a
 │    └────────────── Owner
 └─────────────────── File type
 ```
-First character = file type: `-` regular file, `d` directory, `l` symlink, `p` FIFO (file 06), `c` character device. Owner/Group here: `Owner = alice`, `Group = students`. Ownership and permissions are independent — changing one doesn't change the other, and being owned by `root` does *not* by itself mean others are locked out (permission bits still decide that).
+First character = file type: `-` regular file, `d` directory, `l` symlink, `p` FIFO (file 08), `c` character device. Owner/Group here: `Owner = alice`, `Group = students`. Ownership and permissions are independent — changing one doesn't change the other, and being owned by `root` does *not* by itself mean others are locked out (permission bits still decide that).
 
 ## The Three Basic Permissions — `rwx`
 
@@ -69,7 +69,7 @@ When an executable has SUID set, running it executes the process using the **fil
 ```bash
 chmod u+s program
 ```
-A SUID binary owned by `root` therefore lets any user who can execute it briefly run *as root* for that program's logic — powerful, and why SUID binaries must be carefully designed (see `su` in file 13 for a canonical example).
+A SUID binary owned by `root` therefore lets any user who can execute it briefly run *as root* for that program's logic — powerful, and why SUID binaries must be carefully designed (see `su` in file 15 for a canonical example).
 
 ### SGID — Set Group ID
 Same idea, using the **group** identity instead:

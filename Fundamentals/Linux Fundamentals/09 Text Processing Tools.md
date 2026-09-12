@@ -1,6 +1,6 @@
 # Text Processing Tools
 
-These small, single-purpose tools are meant to be chained together with pipes (file 06):
+These small, single-purpose tools are meant to be chained together with pipes (file 08):
 ```
 Input → Filter/Extract → Transform → Sort/Limit → Output
 ```

@@ -43,7 +43,7 @@ cd /challenge   # CWD becomes /challenge
 cd              # no argument → goes to $HOME
 ```
 
-`cd` only changes the shell's own working directory — it doesn't execute a program (this is why it must be a shell builtin; see file 02).
+`cd` only changes the shell's own working directory — it doesn't execute a program (this is why it must be a shell builtin; see file 03).
 
 ## `.` and `..`
 
@@ -83,7 +83,7 @@ These three look similar but mean different things:
 
 | Input | Meaning |
 |---|---|
-| `run` | Command name → looked up via `$PATH` (see file 02) |
+| `run` | Command name → looked up via `$PATH` (see file 03) |
 | `./run` | Relative path → the `run` file in the CWD |
 | `/challenge/run` | Absolute path → that exact file |
 
@@ -96,6 +96,8 @@ Bash transforms your input — expanding `~`, variables, globs, etc. — *before
 ```
 your input → Bash parsing/expansion → resulting arguments → program executes
 ```
+
+This file focuses on path *mechanics* — how paths are written and resolved. For what actually lives at each standard location (`/etc`, `/var`, `/home`, and so on), see file 02.
 
 ## Cheat Sheet
 
